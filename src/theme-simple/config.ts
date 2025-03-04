@@ -4,23 +4,23 @@ import { usrConfig } from "@/consts";
 const defConfig: RequiredConfig = {
     site: {
         url: "/", // http://localhost:4321/ ← tailing slash is required.
-        title: "My website.",
-        description: "Welcome to my website!",
+        title: "克喵Kemeow Blog",
+        description: "致力于分享资源与生活~",
         favicon: "/favicon.svg",
         image: "/placeholder-social.jpg", // default image for meta tag.
         copy: "©{curFullYear} YOUR NAME HERE.", // default copy for footer.
         locales: "zh-CN", // 'en-us'
     },
     author: {
-        name: "Your Name",
+        name: "克喵爱吃卤面",
         avatar: "/avatar.png",
         bio: "Your bio",
     },
     menus: [
-        { name: "Home", path: "/" },
-        { name: "Archive", path: "/archive" },
-        { name: "About", path: "/about" },
-        { name: "Search", path: "/search" },
+        { name: "首页", path: "/" },
+        { name: "归档", path: "/archive" },
+        { name: "关于我", path: "/about" },
+        { name: "搜索", path: "/search" },
     ],
     archive: {
         title: "Archive",
@@ -31,8 +31,8 @@ const defConfig: RequiredConfig = {
         description: "Search description",
     },
     waline: {
-        enable: false,
-        serverURL: "https:///your-domain.vercel.app",
+        enable: true,
+        serverURL: "https://waline-astro-v7.kemeow.top",
     },
     opt: {
         postsSize: 13,
